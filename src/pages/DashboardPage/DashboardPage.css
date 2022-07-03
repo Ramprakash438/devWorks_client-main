@@ -1,0 +1,37 @@
+
+.dashboard-profile-btn{
+    border-style: none;
+    padding:0.5rem;
+    font-size:1rem;
+    color: white;
+    background-color: var(--light-blue);
+    border-radius:5px;
+}
+.dashboard-profile-btn:hover{
+    color: var(--blue);
+    background-color: white
+}
+.dashboard-spinner{
+    display: block;
+    z-index: 100;
+    display: flex;
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (width<=768px) {
+    .dashboard-profile-image{
+        width: 100px;
+        height: 100px;
+    }
+    .dashboard-tabs{
+        font-size: 0.85rem;
+        overflow: auto;
+    }
+}

@@ -1,0 +1,25 @@
+.profile-tabs-container{
+  width:85%;
+  margin: 0 auto;
+}
+
+.profile-tabs .nav-link.active{
+    color: var(--dark-blue) !important;
+}
+  
+.profile-tabs-contents {
+  display: none;
+}
+
+@media (width<=768px) {
+    .profile-tabs{
+        font-size: 0.85rem;
+        overflow: auto;
+    }
+    
+}
+@media (width<= 900px) {
+  .profile-tabs-container{
+    width:100%;
+  }
+}
