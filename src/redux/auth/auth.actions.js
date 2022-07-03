@@ -42,7 +42,7 @@ export const signupUser = ({ name, email, password }) => async (dispatch) => {
     }
     catch (err) {
         const errors = err.response;
-        // console.log(errors,"errorss")
+        console.log(errors,"errorss")
         if (errors) {
             errors.forEach(err => dispatch(setAlert(err.message), "is-danger"))
         }
